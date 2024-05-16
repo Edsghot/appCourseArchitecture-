@@ -1048,6 +1048,8 @@ body.dark-theme {
   }
   .nav__button {
     display: inline-block;
+    padding: 6px 8px;
+    margin: 5px;
   }
 
   .active-link {
