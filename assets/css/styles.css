@@ -1088,6 +1088,7 @@ body.dark-theme {
   .home__description, 
   .home__search {
     margin-bottom: 3rem;
+    text-align: justify;
   }
   .home__value {
     column-gap: 3.5rem;
@@ -1118,7 +1119,9 @@ body.dark-theme {
   .popular__data {
     padding: 0 .25rem 0 .75rem;
   }
-
+  .popular__price{
+    font-size:medium;
+  }
   .value__container,
   .contact__container {
     align-items: flex-start;
