@@ -72,8 +72,9 @@
         <!-- Theme change button -->
         <i class="bx bx-moon change-theme" id="theme-button"></i>
         <!-- Button trigger modal -->
-        <a href="#" class="nav__button button">Acceder</a>
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">registrarse</button>
+        <!--<a href="#" class="nav__button button">Acceder</a>-->
+        <button type="button" class="btn btn-warning custom-btn" data-toggle="modal" data-target="#accederModal">Acceder</button>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Registrarse</button>
         <!--====Modal===== -->
       </nav>
     </header>
@@ -160,12 +161,49 @@
             </form>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerar</button>
-            <button type="button" class="btn btn-primary">Regitrarme en la Plataforma</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-primary">Registrarme en la Plataforma</button>
           </div>
         </div>
       </div>
     </div>
+        <!--======Modal para Acceder===-->
+    <div class="modal fade" id="accederModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-sm"> <!-- Agrega la clase modal-sm para hacer la ventana modal más pequeña -->
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Datos de Registro</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form class="row">
+              <div class="form-group col-12">
+                <label for="exampleInputEmail1">Correo Electrónico o DNI</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+              <div class="col-md-12">
+                <div class="form-group">
+                  <label for="recipient-name" class="col-form-label">Contraseña</label>
+                  <input type="password" class="form-control" id="recipient-name" />
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <div class="row">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+              <div style="margin-left: 10px;"></div>
+              <button type="button" class="btn btn-primary">Registrarme</button>
+            </div>
+            <a href="#" style="margin-left: 10px;">¿Olvidaste tu contraseña?</a> <!-- Enlace para recuperar contraseña -->
+
+          </div>
+        </div>
+      </div>
+    </div>
+    
 
     <!--==================== MAIN ====================-->
     <main class="main">
@@ -564,8 +602,10 @@
             Casaverde <i class="bx bxs-home-alt-2"></i>
           </a>
           <p class="footer__description">
-            Our vision is to make all people <br />
-            the best place to live for them.
+            La Vision es ser reconocidos como líderes en el campo de<br>
+            la consultoría y asesoría en proyectos estructurales,destacándonos<br>
+            por nuestra excelencia técnica,innovación constante y compromiso<br>
+            inquebrantable con la satisfacción del cliente
           </p>
         </div>
 

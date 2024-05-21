@@ -1199,6 +1199,9 @@ body.dark-theme {
     justify-content: space-between;
     padding-bottom: 2rem;
   }
+  .footer__description{
+    text-align: justify;
+  }
 
   .show-scroll {
     bottom: 3rem;
@@ -1229,3 +1232,8 @@ body.dark-theme {
     zoom: 2;
   }
 }
+/*--===booptrap*/
+.custom-btn {
+  margin: 10px;
+}
+
